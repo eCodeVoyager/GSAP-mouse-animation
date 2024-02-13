@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.mouse {
+    cursor: pointer;
+    width: 100px;
+    height: 160px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 82px;
+}
+
+.mouse>.mouse_wheel {
+    width: 4px;
+    height: 25px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    background-color: white;
+}
